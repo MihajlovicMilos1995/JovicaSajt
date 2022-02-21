@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS.css">
+    <div class="topnav">
+        <a href="Pocetna.html">Početna stranica</a>
+        <a class="current" href="Meni.html">Jelovnik</a>
+        <a href="Contact.html">Kontakt</a>
+    </div>
+
+
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    
+    <title>Jelovnik</title>
+
+
+</head>
+<body> 
+    <table class="center" id="dorucak">
+        <tr>
+          <th id="top" rowspan="2">Dorucak:</th>  
+          <td>Jaja i slanina</td>
+          <td>250 din</td>        
+        </tr>
+        <tr>
+            <td>Jaja i kobasica</td>
+            <td>250 din</td>
+        </tr>
+        <tr>
+            <th id="top" rowspan="2">Palačinke:</th>
+            <td>Krem i plazma</td>
+            <td>120 din</td>
+        </tr>
+        <tr>
+            <td>Sladoled</td>
+            <td>120 din</td>
+        </tr>
+    </table>
+
+    <table class="center" id="pizza">
+        <tr>
+            <th id="top">Pizza:</th>
+            <th>Mala</th>
+            <th>Srednja</th>
+            <th>Velika</th>
+        </tr>
+        <tr>
+            <td>Kaprićoza</td>
+            <td>150 din</td>
+            <td>350 din</td>
+            <td>700 din</td>
+        </tr>
+        <tr>
+            <td>Mađarica</td>
+            <td>170 din</td>
+            <td>380 din</td>
+            <td>750 din</td>
+        </tr>
+        <tr>
+            <td>Tuna</td>
+            <td>170 din</td>
+            <td>380 din</td>
+            <td> / </td>
+        </tr>
+        <tr>
+            <td>Domaćinska</td>
+            <td>170 din</td>
+            <td>380 din</td>
+            <td> / </td>
+        </tr>
+    </table>
+
+    <table class="center" id="rostilj">
+        <tr>
+            <th id="top" rowspan="6">Roštilj:</th>
+            <td>Pljeskavica - MALA(100g)</td>
+            <td>160 din</td>
+        </tr>
+        <tr>
+            <td>Pljeskavica - SREDNJA(150g)</td>
+            <td>200 din</td>
+        </tr>
+        <tr>
+            <td>Pljeskavica - VELIKA(200g)</td>
+            <td>250 din</td>
+        </tr>
+        <tr>
+            <td>Pljeskavica - GURMANSKA(200g)</td>
+            <td>270 din</td>
+        </tr>
+        <tr>
+            <td>Ćevapi (5kom - 170g)</td>
+            <td>220din</td>
+        </tr>
+        <tr>
+            <td>Roštilj kobasica (220g)</td>
+            <td>220 din</td>
+        </tr>
+
+        <tr>
+            <th id="top" rowspan="3">Banjalučki ćevap:</th>
+            <td>Mala porcija(100g)</td>
+            <td>200 din</td>
+        </tr>
+        <tr>
+            <td>Srednja porcija(150g)</td>
+            <td>300 din</td>
+        </tr>
+        <tr>
+            <td>Velika porcija(200g)</td>
+            <td>360 din</td>
+        </tr>
+
+        <tr>
+            <th id="top" rowspan="4">Ostalo:</th>
+            <td>Index</td>
+            <td>150 din</td>
+        </tr>
+        <tr>
+            <td>Belo meso</td>
+            <td>220 din</td>
+        </tr>
+        <tr>
+            <td>Krilca + pomfrit</td>
+            <td>300 din</td>
+        </tr>
+        <tr>
+            <td>Pomfrit</td>
+            <td>70 din</td>
+        </tr>
+    </table>
+
+    <div class="dropdown">
+        <button onclick="myFunction(this)" class="dropbtn">Dorucak</button>
+        <div id="myDropdown" class="dropdown-content">
+            <ul>
+                <li>
+                    Jaja i kobasica (250din)
+                </li>
+                <li>
+                    Jaja i slanina(250din)
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="dropdown">
+        <button onclick="myFunction(this)" class="dropbtn">Pizza</button>
+        <div id="myDropdown" class="dropdown-content">
+            <ul>
+                <li>
+                  Kaprićoza: Mala(150din), Srednja(350din), Velika(700din)
+                </li>
+                <li>
+                   Mađarica: Mala(170din), Srednja(380din), Velika(750din)
+                </li>
+                <li>
+                    Tuna: Mala(170din), Srednja(380din)
+                </li>
+                <li>
+                    Domaćinska: Mala(170din), Srednja(380din)
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button onclick="myFunction(this)" class="dropbtn">Roštilj</button>
+        <div id="myDropdown" class="dropdown-content">
+            <ul>
+                <li>
+                  Pljeskavica: Mala(160din), Srednja(200din), Velika(250din), Gurmanska(270din)
+                </li>
+                <li>
+                   Cevapi:(5 kom - 220din)
+                </li>
+                <li>
+                    Banjalučki cevap: Mala porcija(200din), Srednja porcija(300din), Velika porcija(360din)
+                </li>
+                <li>
+                    Rostilj kobasica (220din)
+                </li>
+                <li>
+                    Index(150din)
+                </li>
+                <li>
+                    Belo meso(220din)
+                </li>
+                <li>
+                    Krilca + pomfrit(300din), Pomfrit(70din)
+                </li>
+                <li>
+                    Pomfrit(70din)
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+      <script>
+
+        function myFunction(a) {
+            a.parentNode.getElementsByClassName('dropdown-content')[0].classList.toggle("show");
+        }
+        
+    
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+</body>
+</html>

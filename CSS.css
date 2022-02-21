@@ -1,0 +1,204 @@
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.topnav {
+    background-color: #2a2f33;
+    overflow: hidden;
+    width: 100%;
+    list-style-type: none;
+  }
+hr{
+  color:black;
+}
+
+.alink{
+  color: #ffcc2a;
+}
+.hoverLink :hover{
+  color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #ffcc2a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+  }
+
+.topnav a:hover {
+    background-color: #ffcc2a;
+    color: black;
+  }
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y:inherit;
+}
+body{
+      padding: 0cm;
+      margin: 0cm;
+      background-image: url("Images/gurman_logo.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-color: #2a2f33;
+  }
+
+  @media all and (max-width:960px){
+    body{
+      padding: 0cm;
+      margin: 0cm;
+      background-image: url("Images/gurman_pizza_banner.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-color: #ffcc2a;
+
+    }
+   .dropbtn {
+      background-color: #2a2f33 !important;
+      color: #ffcc2a !important;
+    }
+
+    table{
+      background-color: #2a2f33!important;
+      color:  #ffcc2a!important;
+    }
+
+    .dropbtn :hover {
+      background-color: #ffcc2a!important;
+      color: #2a2f33!important;
+    }    
+
+    fieldset{
+      border: 3px solid black!important;
+    }
+    .alink{
+      color: black!important;
+    }
+    .hoverLink :hover{
+      color: white!important;
+    } 
+    fieldset{
+      color: black !important;
+    }
+  }
+
+p{
+      margin: 10px;
+  }
+h1{
+      margin: 10px;
+  }
+h3{
+  margin: 2px;
+}
+#top{
+  vertical-align: top;
+}
+td{
+  padding: 5px;
+  margin:2px;
+  position: relative;
+  text-align: center;
+}
+table{
+  background-color: #ffcc2a;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  color: #2a2f33;
+  font-size: large;
+  font-weight: bold;
+
+}
+th{
+  width: 120px;
+  height: 30px;
+}
+fieldset{
+  margin-top: 10%;
+  width: 27%;
+  margin-left: 10px;
+  padding-top: 3px;
+  color: #ffcc2a;
+  float: left;
+  font-size: large;
+  font-weight: bold;
+  border: 3px solid #ffcd2a;
+  margin-bottom: 3px;
+  
+  
+}
+iframe{
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+.dropbtn {
+  background-color:  #ffcc2a;
+  color:#2a2f33;
+  padding: 16px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 3px;
+  transform: translateX(50%);
+}
+
+
+.dropbtn:hover {
+  background-color: #ffcc2a;
+  color: #2a2f33;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  top: 30%;
+}
+
+.dropdown-content {
+  display: none;
+  margin-bottom: 3px;
+  position: relative;
+  background-color: #f1f1f1;
+  background: #2a2f33;
+  color: #ffcc2a;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 50%;
+  transform: translateX(50%);
+  font-size: large;
+  font-weight: bold;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {display: block;}
+.topnav .current {background-color:#ffcc2a; color: #2a2f33;}
